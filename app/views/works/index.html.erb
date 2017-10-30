@@ -1,20 +1,14 @@
 
 <div class="video-display">
 				<%= video_tag(["saigon.mp4"], :autoplay => true, :loop => true, muted: true, controls: true) %>
-	<div class="embedded-content">
-		<h1 class="name">Erik Young</h1>
-		<hr class="white-hr">
-		<p class="job-title">Full Stack Web Developer</p>
-	</div>
 </div>
 
 
 <div class="container">
 	<div class="row">
-		
+		<h1 class="simple-title-for-app col-xs-12 col-sm-12 col-lg-12">Portfolios</h1>	
 <% @works.each do |work| %> 
 		<div class="box-for-app col-xs-6 col-sm-6">
-		<h1 class="simple-title-for-app">Welcome to my Awesome Web App</h1>
 			<h1 id="name-of-app"><%= work.name %></h1>
 			<p><%= work.description %> </p>
 		</div><!-- col-xs-6 col-sm-6 --> 
