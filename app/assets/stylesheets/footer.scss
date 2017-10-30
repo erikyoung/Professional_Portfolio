@@ -16,15 +16,25 @@ body {
 	position: relative;
 	width: 100%;
 	min-height: 100%;
-	background-color:#0000FF;
+	background-color:#0275d8;
 	color: white;
 	font-family: "Helvetica Neue", Helvetica;
 	padding: 10px 0px;
 	margin-top: 30px;
+	font-weight: 100;
 }
 
 #footer a {
 	color: white;
 	font-weight: 100;
+}
+
+.social-button {
+  margin: 4px;
+  z-index: 1;
+}
+
+.social a:hover {
+  text-decoration: none;
 }
 
