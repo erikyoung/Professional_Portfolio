@@ -3,7 +3,7 @@
   <head>
     <title>PersonalPortfolioSite</title>
     <%= csrf_meta_tags %>
-
+    <link href="https://fonts.googleapis.com/css?family=Schoolbell" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -13,15 +13,15 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Erik Young</a>
+      <a class="navbar-brand" <%= link_to 'Erik Young', root_path %></a>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+            <a class="nav-link" <%= link_to 'Portfolio', portfolio_path %> <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            <a class="nav-link" <%= link_to 'About', about_path %><span class="sr-only">(current)</span></a>
           </li>
           
           

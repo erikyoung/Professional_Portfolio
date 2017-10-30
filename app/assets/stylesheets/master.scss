@@ -18,5 +18,27 @@ body {
 video {
 	width: 100%; 
 	height: 100%;
+	
    
+}
+
+.white-hr {
+	color: #fff
+}
+
+.embedded-content {
+	color:black;
+	background-color: #bad0f2;
+	opacity: 0.5;
+	width: 320px;
+	padding: 25px;
+	margin: 25px;
+	font-size: 40px;
+	position: fixed; /* or absolute */
+  	top: 20%;
+  	left: 30%;
+  	margin-right: 150px;
+  	font-family: 'Schoolbell', cursive;
+  	
+    
 }
