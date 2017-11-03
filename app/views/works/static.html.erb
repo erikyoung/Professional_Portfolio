@@ -4,21 +4,26 @@
 
 <div class="container">
 	<div class="row">
-			<div class="featured-pieces-class col-xs-12 col-sm-12">
+			<div class="featured-pieces-class col-12">
 				<h1 class="featured-pieces">Featured Pieces</h1>
 			</div> <!-- col-xs-12 -->
 
 
-			<div class="image-shower">
+			<div class="col-12">
 				<div class="row">
-					<div class="col-xs-6 col-sm-6">
-				
-					<%= image_tag 'slider11.jpg', class: 'img-fluid' %> 
-					<%= image_tag 'ielts.jpg', class: 'img-fluid' %> 
+					<div class="col-6">
+						<div class="row">
+							<div class="col-6">
+								<div class="showcase" style="background-image: url(<%= image_path('slider11.jpg') %>);">
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="showcase" style="background-image: url(<%= image_path('ielts.jpg') %>);">
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div> <!-- image-shower -->
-			
-			
 	</div> <!-- row -->
 </div><!-- container -->

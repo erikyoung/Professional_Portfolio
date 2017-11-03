@@ -113,26 +113,11 @@ video {
 }
 
 
-
-.image-shower {
-	display:inline-block;
-	float: right;
-}
-
-.image-shower .col-xs-6 {
-	display:inline-block;
-}
-
-
-
-.img-fluid {
-	
+.showcase {
 	margin-top: 30px;
 	-webkit-box-shadow: 0 10px 6px -6px #777;
-       -moz-box-shadow: 0 10px 6px -6px #777;
-            box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #777;
+	background-size: cover;
+	height: 170px;
 }
-
- 
-
-
