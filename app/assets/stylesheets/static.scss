@@ -84,12 +84,52 @@ ul {
 	background-color: #fff;
 }
 
+.header {
+	margin-top: 30px;
+	margin-bottom: 15px;
+	font-size: 17px;
+	font-family: 'Times New Roman';
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+.featured-art {
+	padding: 0 8px;
+	margin-bottom: 40px;
+}
+
+a {
+	color: #337ab7;
+	text-decoration: none;
+}
+
+a {
+	background-color: transparent;
+}
+
+.featured-artwork-box  img {
+	border: solid 1px #eee;
+	padding: 0;
+	margin-bottom: 10px;
+
+}
 
 
 
 
-
-
+@media (min-width: 768px) {
+	.col-6 {
+		width: 50%;
+	}
+}
 
 @media (min-width: 1200px) {
 	.col-lg-offset-1 {
