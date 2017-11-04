@@ -11,7 +11,7 @@
 	color: #f8f8f8;
 	position:relative;
 	background: black;
-	opacity: 0.7;
+	opacity: 0.9;
 	margin: 15px ;
 	padding: 25px;
 	
@@ -97,13 +97,17 @@ ul {
 	text-align: center;
 }
 
-p {
-	margin: 0 0 10px;
-}
+
 
 .featured-art {
-	padding: 0 8px;
+	z-index:0;
 	margin-bottom: 40px;
+	background: url("slider11.jpg") no-repeat center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display:inline-block;
+	height: 325px;
+	
 }
 
 a {
@@ -111,19 +115,51 @@ a {
 	text-decoration: none;
 }
 
-a {
-	background-color: transparent;
-}
+.artist-name {
+	color: #fff;
+	font-weight: heavier;
 
-.featured-artwork-box  img {
-	border: solid 1px #eee;
-	padding: 0;
-	margin-bottom: 10px;
 
 }
 
+.artist-info {
+	background-color:#848484;
+	object-fit: cover;
+	color: #fff;
+	padding: 10px 10px 10px 10px;
+	background-size: contain;
+
+	
+}
 
 
+.port-desc-lite {
+	float:right;
+}
+
+.artwork-name {
+	font-size: 13px;
+	font-weight: 200;
+	color: #fff;
+	font-weight: 200;
+}
+
+.port-desc {
+	font-size: 12px;
+	font-weight: 200;
+	color: #fff;
+	}
+
+	.artwork-medium {
+	font-size: 12px;
+	font-weight: 200;
+	color: #fff;
+
+}
+
+.artwork-year {
+	color:#fff;
+}
 
 @media (min-width: 768px) {
 	.col-6 {
