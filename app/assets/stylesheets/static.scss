@@ -17,13 +17,13 @@ body {
 	opacity: 0.9;
 	margin: 15px ;
 	padding: 25px;
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 .col-lg-12 > .intro-message {
 	margin-top: 80px;
 	width: 75%;
-	margin-left: 215px;
+	margin-left: 185px;
 
 }
 
@@ -114,7 +114,7 @@ ul {
 }
 
 .featured-artwork-top {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 a {
@@ -134,11 +134,15 @@ a {
 .artist-info {
 	background-color:#848484;
 	padding: 10px 10px 10px 10px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	cursor:pointer;
 	padding-right: 10px;
 
 	
+}
+
+#portfolios {
+	margin-left: 80px;
 }
 
 .port-desc-lite {
@@ -158,7 +162,7 @@ a {
 	color: #fff;
 	}
 
-	.artwork-medium {
+.artwork-medium {
 	font-size: 12px;
 	font-weight: 200;
 	color: #fff;
@@ -178,25 +182,15 @@ a {
 @media (min-width: 768px) {
 	.col-6 {
 		float:left;
+
 	}
 }
 
-@media (max-width: 992px) {
-	.featured-art {
-	margin-bottom: 15px;
 
-	}
 
-}
 
-@media (min-width: 1200px) {
-	.col-lg-offset-1 {
-		margin-left: 8.3%;
-	}
-	.col-lg-10 {
-		width: 8.3%;
-	}
-}
+
+
 
 @media (min-width: 1200px) {
 	.container {
