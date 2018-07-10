@@ -12,7 +12,8 @@ body {
 	opacity: 0.9;
 	margin: 15px ;
 	padding: 25px;
-	
+	display:inline-block;
+	vertical-align: middle; 
 }
 
 
@@ -182,11 +183,7 @@ a {
 
 
 
-@media (min-width: 1200px) {
-	.container {
-		width: 1170px;
-	}
-}
+
 
 
 
