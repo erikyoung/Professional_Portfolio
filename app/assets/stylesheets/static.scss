@@ -18,6 +18,8 @@ body {
 
 
 
+
+
 .main-carousel {
 	
 	width: 100vw;
@@ -96,8 +98,13 @@ ul {
 	padding: 0 8px;
 	margin-bottom: 200px;
 	display: inline-block;
-	background-size: cover;
 	height: 325px;
+}
+
+.featured-art:hover {
+	-moz-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
 .featured-art > .img-fluid {
