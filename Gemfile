@@ -10,7 +10,8 @@ end
 gem 'rails', '~> 5.1.4'
 gem 'sprockets', '~> 3.7.2'
 gem 'jquery-rails'
-
+gem 'simple_form'
+gem 'devise'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
